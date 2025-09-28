@@ -1,0 +1,14 @@
+/* Reset and fullscreen base */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Leaflet map takes full screen */
+.leaflet-container {
+  height: 100vh !important;
+  width: 100vw !important;
+}
